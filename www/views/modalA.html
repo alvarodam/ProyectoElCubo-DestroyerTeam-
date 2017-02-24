@@ -1,0 +1,47 @@
+<jsv-header>
+    <button-header-left onclick="$JSView.closeModal('modalA')">X</button-header-left>
+    <b>Alhambra Tradicional</b>
+    <button-header-right></button-header-right>
+</jsv-header>
+<jsv-content>
+  <IMG onclick="$JSView.openImage(this, 'popupimage')" margin-left="50" SRC="img\Alhambra.png" border=0 width="25%" height="25%">
+    <a href="https://www.cervezasalhambra.es/" target="_blank">Página oficial</a>
+    <p>Siendo la cerveza aún una bebida bastante desconocida en Granada, nuestros primeros
+      maestros cerveceros pusieron toda su inspiración al servicio de esta primera creación.
+      Tomando como referencia las cervezas alemanas tipo Lager Helles de la región
+      de Baviera, se propusieron hacer una que se adaptara a las preferencias haciéndola
+      menos amarga y con una carga de lúpulo más ligera para acercarla al paladar local.</p>
+</jsv-content>
+<jsv-image-popup id="popupimage">
+  <jsv-header>
+    <button-header-left></button-header-left>
+    <button-header-rigth onclick="$JSView.closeImage('popupimage')"> Close </button-header-rigth>
+  </jsv-header>
+  <div class="tools row">
+    <div class="col" href="https://cervezacorona.es"><a>https://cervezacorona.es</a></div>
+  </div>
+</jsv-image-popup>
+
+<!--
+<jsv-content>
+    <h1 class="paddingFull10">Corona</h1>
+    <div onclick="$JSView.openImage(this, 'popupimage')" style="background-image:
+    url(./img/corona.png)" class="photo"></div>
+    <p>El porqué de su nombre<br>
+    Es coger una Corona y convertirte en un rey. Disfruta de una cerveza única y sobre todo de gran calidad.
+    <br>Los colores de la etiqueta
+    <br>Amarilla como el sol, azul como el mar. La etiqueta de Corona te lleva a la mejor playa del mundo: aquella que sientes dentro de ti.</p>
+    <div class="tools row">
+      <div class="col" url="https://cervezacorona.es"><a>https://cervezacorona.es</a></div>
+    </div>
+</jsv-content>
+<jsv-image-popup id="popupimage">
+  <jsv-header>
+    <button-header-left></button-header-left>
+    <button-header-rigth onclick="$JSView.closeImage('popupimage')"> Close </button-header-rigth>
+  </jsv-header>
+  <div class="tools row">
+    <div class="col" href="https://cervezacorona.es"><a>https://cervezacorona.es</a></div>
+  </div>
+</jsv-image-popup>
+-->
